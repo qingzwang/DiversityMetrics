@@ -7,7 +7,7 @@ To compute the CIDEr score, TF-IDF file is required. In our paper, the TF-IDF is
 ## Evaluation ##
 1. Generating multiple captions for each image, for example 10 for each.
 2. Put the json file in ./results and make sure that the format is the same as that of merge_results.json.
-3. Download the TF-IDF file from [this link](https://drive.google.com/open?id=1jo2rdMZd9nGAz1CU-qk5ZG3W05CYmr4P) and put the file in ./data.
+3. Download the TF-IDF file from [this link](https://drive.google.com/open?id=1jo2rdMZd9nGAz1CU-qk5ZG3W05CYmr4P) and put the file in ./data. Dowonload MSCOCO validation annotation file and put it in ./annotations.
 4. Fill the information in the params.json.
 5. Run accuracy_evalscript.py or diversity_evalscript.py to obtain the accuracy or diversity.
 
