@@ -25,10 +25,14 @@ To compute the CIDEr score, TF-IDF file is required. In our paper, the TF-IDF is
 - MSCOCO Caption Evaluation Team (Xinlei Chen (CMU), Hao Fang (University of Washington), Tsung-Yi Lin (Cornell))
 
 ## Citation ##
+If this is helpful for your work, please cite our paper as:
+
+```
 @InProceedings{Wang_2019_CVPR,
-author = {Wang, Qingzhong and Chan, Antoni B.},
-title = {Describing Like Humans: On Diversity in Image Captioning},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2019}
-}
+  author = {Wang, Qingzhong and Chan, Antoni B.},
+  title = {Describing Like Humans: On Diversity in Image Captioning},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2019}
+  }
+```
