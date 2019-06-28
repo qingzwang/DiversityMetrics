@@ -1,5 +1,5 @@
 # DiversityMetrics
-This  is the implementation of self-CIDEr and LSA-based diversity metrics (only for python 2.7). If you think this is helpful for your work, please cite the paper: [Describing like humans: on diversity in image captioning](https://arxiv.org/pdf/1903.12020v3.pdf)
+This  is the implementation of self-CIDEr and LSA-based diversity metrics (only for python 2.7). If you think this is helpful for your work, please cite the paper: [Qingzhong Wang and Antoni Chan. Describing like humans: on diversity in image captioning. CVPR, 2019](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Describing_Like_Humans_On_Diversity_in_Image_Captioning_CVPR_2019_paper.html)
 
 ## Note ##
 To compute the CIDEr score, TF-IDF file is required. In our paper, the TF-IDF is obtained from MSCOCO training dataset. And to compute the diversity, multiple captions for each image should be generated and the format must be the same as the file ./results/merge_results.json.
@@ -23,3 +23,12 @@ To compute the CIDEr score, TF-IDF file is required. In our paper, the TF-IDF is
 ## Acknowledgement ##
 - Ramakrishna Vedantam (Virgina Tech)
 - MSCOCO Caption Evaluation Team (Xinlei Chen (CMU), Hao Fang (University of Washington), Tsung-Yi Lin (Cornell))
+
+## Citation ##
+@InProceedings{Wang_2019_CVPR,
+author = {Wang, Qingzhong and Chan, Antoni B.},
+title = {Describing Like Humans: On Diversity in Image Captioning},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+}
